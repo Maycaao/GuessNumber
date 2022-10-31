@@ -58,9 +58,9 @@ function handleSubmit(e){
     if(numberDraw == kick){
         GuessNumber.correctAnswear();
     }else if(numberDraw > kick){
-        GuessNumber.incorrectAnswear('O número é maior');
-    }else if (numberDraw < kick){
         GuessNumber.incorrectAnswear('O número é menor');
+    }else if (numberDraw < kick){
+        GuessNumber.incorrectAnswear('O número é maior');
     }
 };
 
