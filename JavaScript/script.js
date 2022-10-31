@@ -60,7 +60,7 @@ function handleSubmit(e){
     }else if(numberDraw > kick){
         GuessNumber.incorrectAnswear('O número é maior');
     }else if (numberDraw < kick){
-        GuessNumber.incorrectAnswear('O número é maior');
+        GuessNumber.incorrectAnswear('O número é menor');
     }
 };
 
